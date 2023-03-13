@@ -27,7 +27,7 @@ import androidx.core.app.NotificationManagerCompat;
 public class MessageClass extends FirebaseMessagingService {
 
     private static String CHANNEL_ID = "Cat channel";
-    private static final int NOTIFICATION = 101;
+//    private static final int NOTIFICATION = 101;
     private NotificationManagerCompat notificationManager;
 
     @Override
@@ -35,10 +35,10 @@ public class MessageClass extends FirebaseMessagingService {
         super.onMessageReceived(remoteMessage);
         notificationManager = NotificationManagerCompat.from(this);
         if (remoteMessage.getNotification().getBody() != null) {
-            String S = remoteMessage.getNotification().getBody();
-            String S2 = remoteMessage.getNotification().getTitle();
-            Log.i("hhgshghsgh", S);
-            Log.i("shgshghsgh", S2);
+ //           String S = remoteMessage.getNotification().getBody();
+ //           String S2 = remoteMessage.getNotification().getTitle();
+ //           Log.i("hhgshghsgh", S);
+ //           Log.i("shgshghsgh", S2);
             sendNotification(remoteMessage);
         }
     }
@@ -58,7 +58,7 @@ public class MessageClass extends FirebaseMessagingService {
                 .build();
         NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
-            int importance = NotificationManager.IMPORTANCE_LOW;
+//            int importance = NotificationManager.IMPORTANCE_LOW;
             NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "My channel", NotificationManager.IMPORTANCE_HIGH);
             channel.enableLights(true);
             channel.enableVibration(false);

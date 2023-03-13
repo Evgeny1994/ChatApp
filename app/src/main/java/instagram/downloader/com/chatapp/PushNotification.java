@@ -6,11 +6,11 @@ package instagram.downloader.com.chatapp;
 
 public class PushNotification {
     private NotificationData notification;
-    private String to;
+//    private String to;
 
     public PushNotification(NotificationData notification, String to) {
         this.notification = notification;
-        this.to = to;
+//        this.to = to;
     }
 
     //  public PushNotification(String title, String message) {
@@ -24,11 +24,11 @@ public class PushNotification {
         this.notification = notification;
     }
 
-    public String getTo() {
-        return to;
-    }
+//    public String getTo() {
+//        return to;
+//    }
 
-    public void setTo(String to) {
-        this.to = to;
-    }
+//    public void setTo(String to) {
+//        this.to = to;
+//    }
 }
