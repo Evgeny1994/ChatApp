@@ -13,8 +13,8 @@ public class PushNotification {
         this.to = to;
     }
 
-  //  public PushNotification(String title, String message) {
-  //  }
+    //  public PushNotification(String title, String message) {
+    //  }
 
     public NotificationData getNotification() {
         return notification;

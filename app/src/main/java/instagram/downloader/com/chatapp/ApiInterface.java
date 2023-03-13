@@ -1,4 +1,5 @@
 package instagram.downloader.com.chatapp;
+
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.Headers;
@@ -12,7 +13,7 @@ import static instagram.downloader.com.chatapp.ValuesClass.SERVER_KEY;
  */
 
 public interface ApiInterface {
-        @Headers({"Authorization: "+SERVER_KEY,"Content-Type:"+CONTENT_TYPE})
-        @POST("fcm/send")
-        Call<PushNotification> sendNotification(@Body PushNotification pushNotification);
-    }
+    @Headers({"Authorization: " + SERVER_KEY, "Content-Type:" + CONTENT_TYPE})
+    @POST("fcm/send")
+    Call<PushNotification> sendNotification(@Body PushNotification pushNotification);
+}

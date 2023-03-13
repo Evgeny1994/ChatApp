@@ -1,8 +1,6 @@
 package instagram.downloader.com.chatapp;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.format.DateFormat;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -16,10 +14,7 @@ import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.messaging.FirebaseMessaging;
-
-
 import java.util.Calendar;
-
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import retrofit2.Call;

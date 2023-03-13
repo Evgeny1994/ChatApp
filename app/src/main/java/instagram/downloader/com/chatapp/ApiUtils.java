@@ -11,9 +11,9 @@ import static instagram.downloader.com.chatapp.ValuesClass.BASE_URL;
 
 public class ApiUtils {
     public static Retrofit retrofit = null;
-    public static ApiInterface getClients(){
-        if (retrofit == null)
-        {
+
+    public static ApiInterface getClients() {
+        if (retrofit == null) {
             retrofit = new Retrofit.Builder()
                     .baseUrl(BASE_URL)
                     .addConverterFactory(GsonConverterFactory.create())

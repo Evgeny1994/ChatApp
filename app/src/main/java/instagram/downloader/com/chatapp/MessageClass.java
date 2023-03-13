@@ -35,10 +35,10 @@ public class MessageClass extends FirebaseMessagingService {
         super.onMessageReceived(remoteMessage);
         notificationManager = NotificationManagerCompat.from(this);
         if (remoteMessage.getNotification().getBody() != null) {
-              String S = remoteMessage.getNotification().getBody();
-              String S2 = remoteMessage.getNotification().getTitle();
+            String S = remoteMessage.getNotification().getBody();
+            String S2 = remoteMessage.getNotification().getTitle();
             Log.i("hhgshghsgh", S);
-             Log.i("shgshghsgh", S2);
+            Log.i("shgshghsgh", S2);
             sendNotification(remoteMessage);
         }
     }
