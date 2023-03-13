@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "638529277176",
+    "firebase_url": "https://chatapp-3782f-default-rtdb.firebaseio.com",
+    "project_id": "chatapp-3782f",
+    "storage_bucket": "chatapp-3782f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638529277176:android:16b3d6b7e2038c4a1cff0d",
+        "android_client_info": {
+          "package_name": "instagram.downloader.com.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638529277176-c3kh6q6grh6ue5lkm90im3etkfuavj87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBytPxYeh3k5Pc5t2srtRLlvFApqG4F630"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638529277176-c3kh6q6grh6ue5lkm90im3etkfuavj87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
